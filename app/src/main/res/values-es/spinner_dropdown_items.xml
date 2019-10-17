@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subject_array">
+        <item>Select category</item>
+        <item>Accountancy</item>
+        <item>Administration</item>
+        <item>Architecture</item>
+        <item>Art</item>
+        <item>Art and Fine Arts</item>
+        <item>Biological Sciences</item>
+        <item>Biology</item>
+        <item>Business</item>
+        <item>Chemistry</item>
+        <item>Computing</item>
+        <item>Ecology and environment</item>
+        <item>Economy</item>
+        <item>English</item>
+        <item>Fashion and design</item>
+        <item>Physic</item>
+        <item>General Culture</item>
+        <item>Geography</item>
+        <item>geology</item>
+        <item>Health and Medicine</item>
+        <item>History</item>
+        <item>Informatics and Technology</item>
+        <item>Journalism</item>
+        <item>Languages</item>
+        <item>Law and Laws</item>
+        <item>Literature</item>
+        <item>Math</item>
+        <item>Music</item>
+        <item>Nutrition and Food</item>
+        <item>Political Sciences</item>
+        <item>Psychology</item>
+        <item>Public administration</item>
+        <item>Quality</item>
+        <item>Social Sciences and Humanities</item>
+        <item>Spanish</item>
+        <item>Veterinary</item>
+    </string-array>
+</resources>
+
+
