@@ -6,7 +6,7 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.0"
+    buildToolsVersion "29.0.2"
     defaultConfig {
         applicationId "com.perros_felices"
         minSdkVersion 27
@@ -39,4 +39,10 @@ dependencies {
     //Login buttons
     implementation 'com.facebook.android:facebook-login:5.5.1'
     implementation 'com.google.android.gms:play-services-auth:17.0.0'
+
+
+    //CircleImageView
+    implementation 'com.mikhaellopez:circularimageview:4.0.2'
+
+
 }

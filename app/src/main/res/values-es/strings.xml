@@ -8,4 +8,11 @@
     <string name="email_address_hint">Direccion E-mail</string>
     <string name="password_hint">Clave de Acceso</string>
     <string name="access_button_text">Sign In</string>
+
+    <!-- Home Fragment -->
+    <string name="greetings">Hola %1$s!</string>
+    <string name="volunteers">Volutarios</string>
+    <string name="shelter">Refugio</string>
+    <string name="missing">Perros perdidos</string>
+    <string name="lost">Perdi mi perro</string>
 </resources>

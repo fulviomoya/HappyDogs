@@ -32,7 +32,9 @@ class LoginFragment : Fragment(), View.OnClickListener  {
                 val imm =  context?.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
                 imm.hideSoftInputFromWindow(view.windowToken, 0)
 
-                findNavController().navigate(R.id.action_loginFragment_to_main_board_fragment)
+              //  findNavController().navigate(R.id.action_loginFragment_to_main_board_fragment) //created a new action to another fragment
+
+                findNavController().navigate(R.id.toHomeFragment)//action to the new fragment
             }
             else if (authenticationState == LoginViewModel.AuthenticationState.INVALID_AUTHENTICATION) showInvalidAuthenticationMessage()
         })
@@ -44,7 +46,12 @@ class LoginFragment : Fragment(), View.OnClickListener  {
     }
 
     override fun onClick(p0: View?) {
-        val loginDialog = LoginDialog()
-        loginDialog.show(this.activity!!.supportFragmentManager, "LoginFragment")
+
+        findNavController().navigate(R.id.toHomeFragment) //action to the new fragment
+
+
+      //  findNavController().navigate(R.id.action_loginFragment_to_main_board_fragment)
+       // val loginDialog = LoginDialog()
+        //loginDialog.show(this.activity!!.supportFragmentManager, "LoginFragment")
     }
 }
