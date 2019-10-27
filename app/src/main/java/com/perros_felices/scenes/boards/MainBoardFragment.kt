@@ -29,7 +29,7 @@ class MainBoardFragment: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        isLoggedUser()
+        //isLoggedUser()
 
         val listOfItems = arrayListOf<Pet>()
         listOfItems.add(Pet("Inflacion", "Dr. Roberth"))
