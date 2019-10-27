@@ -8,7 +8,7 @@
 
 ## Contributing
 
-Everybody is wellcome to make this app possible.
+Everybody is welcome to make this app possible.
 
 ## Authors
 
