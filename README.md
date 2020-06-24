@@ -4,7 +4,7 @@
 ## Built With
 
 * [Circular Image View](https://github.com/lopspower/CircularImageView) - To realize a circular ImageView in the simplest way possible.
-* [Android Jetpack Components](https://developer.android.com/jetpack)  - Is a collection of Android software components which helps us in building great Android apps.
+* [Android Jetpack Components](https://developer.android.com/jetpack)  - Android software components which helps in building apps.
 
 ## Contributing
 
